@@ -1,9 +1,7 @@
-n = int(input("Enter an integer"))
-def div_by_seven():
+import sys
+if len(sys.argv) == 2:
+    n = int (sys.argv[1])
     if n%7 == 0:
-        print(n,"is divisible by 7")
+        print(n)
     else:
-        print(n,"is not divisible by 7")
-
-div_by_seven()
-
+        print('not divisibe by 7')

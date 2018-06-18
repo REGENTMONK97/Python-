@@ -1,0 +1,3 @@
+Hello!
+I am Sai Raghunath.
+This time I am copying the contents of this file(text.txt) to another file(text1.txt)
